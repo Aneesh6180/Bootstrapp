@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dom</title>
+</head>
+<body>
+	<p id="pandey">pandey</p>
+	<p class="welcome">Technical</p>
+
+	<!-- how to access the element by id -->
+	<script type="text/javascript">
+		var a=document.getElementById("pandey").innerHTML;
+		document.write(a);
+	</script>
+
+
+		<!-- how to accesss the element by class -->
+	<script type="text/javascript">
+		var b=document.getElementByClassName("welcome")[0].innerHTML;
+		document.write(b);
+	</script>
+
+	<!-- how to access the tagName -->
+	<script type="text/javascript">
+		var tag=document,getElementByIdTagName("p");
+		document.write(tag);
+		console.write(tag);
+		<br><br>
+	</script>
+</body>
+</html>
